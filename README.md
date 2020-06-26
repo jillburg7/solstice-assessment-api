@@ -4,11 +4,16 @@
 
 ## Running the app locally
 
-1. In your terminal navigate to the `solstice-assessment-api` directory and run:
-```
-node index.js
-```
-2. Once the server is running, clone [solstice-assessment](https://github.com/jillburg7/solstice-assessment) and follow the setup instructions included.
+1. In your terminal navigate to the `solstice-assessment-api` directory.
+2. Install dependencies locally by running:
+    ```
+    yarn
+    ```
+3. Once installed, run:
+    ```
+    node index.js
+    ```
+4. Once the server is running, clone [solstice-assessment](https://github.com/jillburg7/solstice-assessment) and follow the setup instructions included.
 
 
 ## Assessment Directions

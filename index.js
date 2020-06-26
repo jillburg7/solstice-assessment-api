@@ -14,7 +14,7 @@ app.get('/customers/:customerId', (req, res) => {
 })
 
 // Account info endpoint
-app.get('/accounts', (req, res) => res.send('Accounts over hurrr!'))
+app.get('/accounts', (req, res) => res.send(accounts))
 app.get('/accounts/:accountId', (req, res) => {
     const account = accounts.find(element => element.id === Number(req.params.accountId))
     return res.send(account)

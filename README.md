@@ -1,14 +1,17 @@
 # solstice-assessment-api
 
+> Note: this API is meant to work in parallel with [solstice-assessment](https://github.com/jillburg7/solstice-assessment)
+
 ## Running the app locally
 
-In your CLI run:
+1. In your terminal navigate to the `solstice-assessment-api` directory and run:
 ```
 node index.js
 ```
+2. Once the server is running, clone [solstice-assessment](https://github.com/jillburg7/solstice-assessment) and follow the setup instructions included.
 
 
-## Directions
+## Assessment Directions
 Given this JSON file, you are asked to build a web app that should meet these requirements:
 - a backend api: preferably using Nodejs, but you can use any other backend language.
 - a client server: using React.

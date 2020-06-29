@@ -1,7 +1,7 @@
 /**
  * Customers
  */
-export const customers = [
+const customers = [
     {
       id: 1,
       first_name: 'Phillie',
@@ -532,7 +532,7 @@ export const customers = [
   /**
    * Accounts
    */
-  export const accounts = [
+  const accounts = [
     {
       id: 1,
       customer_id: 5,
@@ -1635,3 +1635,9 @@ export const customers = [
     }
   ];
   
+
+ 
+export default {
+  customers,
+  accounts,
+};

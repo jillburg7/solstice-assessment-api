@@ -11,7 +11,7 @@
     ```
 3. Once installed, run:
     ```
-    node index.js
+    yarn start
     ```
 4. Once the server is running, clone [solstice-assessment](https://github.com/jillburg7/solstice-assessment) and follow the setup instructions included.
 

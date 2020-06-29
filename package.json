@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jillian Burgess",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "type": "module"
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
 }
